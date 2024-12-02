@@ -1,7 +1,7 @@
-# Python Easy Chess GUI
-A Chess GUI based from Python using PySimpleGUI and Python-Chess modules. Users can also load a chess engine and play with it. This program is based on a [demo chess against ai](https://github.com/PySimpleGUI/PySimpleGUI/tree/master/Chess) from [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI).
+# Chess Game GUI
+A feature-rich Chess Game with a graphical user interface developed in Python using PySimpleGUI and Python-Chess modules. Players can challenge either another human player or an AI powered by Stockfish, a renowned chess engine. This project focuses on delivering an interactive and enjoyable chess experience while also providing tools for game analysis and saving[.
 
-![](https://i.imgur.com/DT0lOO2.png)
+![image](https://github.com/user-attachments/assets/cbc879e5-ba0d-473d-affa-8fd3a0053219)
 
 Command line to compile the source to exe using pyinstaller.
 
@@ -11,13 +11,12 @@ pyinstaller python_easy_chess_gui.py -F -w
 
 Then add the folders for the exe to work.
 
-### A. Requirements
-If you want to run from the python source the following are required or see the installation section below.
-* Python 3.7 and up
-* Python-chess v0.28.0 and up
-* PySimpleGUI 4.4.1 and up
-* Pyperclip
-* Download this repo
+## Features
+* Play Against AI or Human Opponents: Challenge yourself against the Stockfish engine or enjoy casual games with another player.
+* Game Saving and Loading: Save your games in industry-standard FEN or PGN formats and reload them anytime for analysis or resumption.
+* AI-Powered Move Analysis: Get real-time advice and move evaluations to improve your gameplay.
+* Interactive GUI: Simple and user-friendly graphical interface using PySimpleGUI for seamless gameplay.
+
 
 Or you can just download the [executable file](https://github.com/fsmosca/Python-Easy-Chess-GUI/releases) along with other files such as book and images.
 
